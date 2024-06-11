@@ -5,7 +5,7 @@ for i in range(1,n) :
       sum+=i
 if sum == n :
      print("YES", n, "is ok")
-    else :
+   else :
      print("NO", n, " is not ok")
      
      
