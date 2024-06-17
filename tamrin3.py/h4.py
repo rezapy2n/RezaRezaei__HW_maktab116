@@ -13,6 +13,6 @@ def find_most_common_words(paragraph):
     return most_common_words, max_count
 
 # مثال استفاده از تابع
-paragraph_input = "این یک مثال ساده است که نشان می‌دهد که کد چگونه کار می‌کند. این مثال است."
+paragraph_input = " نشان می‌دهد که کد چگونه کار می‌کند. ."
 most_common_words, count = find_most_common_words(paragraph_input)
 print(f'کلماتی که بیشترین تکرار را دارند: {most_common_words} با تعداد تکرار: {count}')
